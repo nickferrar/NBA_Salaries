@@ -1,3 +1,10 @@
+
+# nba_salaries
+
+
+# Selected Topic:
+* Prediction of NBA salaries based on nba player statistics
+
 # Selected topic:
 * Prediction of NBA salaries based on NBA player statistics and their team record
 
@@ -9,3 +16,4 @@
 
 # Questions they hope to answer with the data
 * The statistics mentioned above will be consider the ‘features’ of our Machine Learning Model. The salary will be the ‘output’. The question we will be hoping to answer is: “Can we predict a player’s salary based on their NBA statistics?”
+
