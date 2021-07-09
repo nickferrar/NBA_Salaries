@@ -1,6 +1,5 @@
 # nba_salaries
 
-## Presentation:
 
 ## Selected Topic:
 
