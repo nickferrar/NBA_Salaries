@@ -5,7 +5,7 @@ PlayerName varchar,
 Salary float,
 SeasonStart int,
 SeasonEnd int,
-Team varchar,
+teamAbbrevated varchar,
 FullTeam varchar
 );
 
@@ -78,7 +78,25 @@ PF float,
 PTS float
 );
 
+/* Create table for team stats */
+CREATE TABLE TeamStats (
+seasonYear int,
+team varchar,
+record varchar,
+wins int,
+losses int,
+win_percentage float
+);
+
+/* create table to obtain short form for team names */
+CREATE TABLE teamShortForm (
+team varchar,
+teamShort varchar
+)
+
 /* Select and view tables to check that data uploaded correctly */
 SELECT * FROM playerbio;
 SELECT * FROM playersalaries;
 SELECT * FROM seasonstats;
+SELECT * FROM teamstats;
+
