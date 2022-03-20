@@ -1,5 +1,5 @@
 # Table of Contents 
-* Resources: containts the raw data files and any csvs outputted from our code 
+* Resources: contains the raw data files and any csvs outputted from our code 
 * Design: contains the SQL code to join our data together as well as ERD diagrams to visualize our original and final databases
 * Data Preprocessing: contains the Python code to clean our data before feeding it into our Machine Learning Models
 * Machine Learning Models: contains the preprocessed data being fed into our various Machine Learning Models 
